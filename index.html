@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
       rel="stylesheet"
     />
-    <script defer src="./js/main.js"></script>
+    <script defer type="text/javascript" src="./js/main.js"></script>
     <title>NuBiddingApp</title>
   </head>
   <body>
@@ -28,16 +28,20 @@
         </div>
         <div class="highestBidContainer">
           <div class="highestBidTitle">Highest Title</div>
-          <div class="highestBidBox"></div>
+          <div id="highestBid" class="highestBidBox"></div>
         </div>
         <div class="bidderContainers">
           <div class="bidderOneContainer">
-            <input class="bidderOneInput" />
-            <button class="bidderOneBox">Click Me 1</button>
+            <input id="bidOneInput" class="bidderOneInput" />
+            <button class="bidderOneBox" onclick="userOneBid()">
+              Click Me 1
+            </button>
           </div>
           <div class="bidderTwoContainer">
-            <input class="bidderTwoInput" />
-            <button class="bidderTwoBox">Click Me 2</button>
+            <input id="bidTwoInput" class="bidderTwoInput" />
+            <button class="bidderTwoBox" onclick="userTwoBid()">
+              Click Me 2
+            </button>
           </div>
         </div>
       </div>
