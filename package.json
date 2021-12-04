@@ -1,0 +1,20 @@
+{
+  "name": "nubiddingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch styles/scss:styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mushroom-Blue/nuBiddingApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mushroom-Blue/nuBiddingApp/issues"
+  },
+  "homepage": "https://github.com/Mushroom-Blue/nuBiddingApp#readme"
+}

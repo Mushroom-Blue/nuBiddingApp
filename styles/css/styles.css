@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.pageContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: #89bbfe;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid black;
+  height: 75%;
+  width: 60%;
+  align-items: center;
+  background-color: #eae6e5;
+}
+
+.headerContainer {
+  margin-top: 30px;
+}
+.headerContainer .headerTitle {
+  font-family: "Corinthia", cursive;
+  font-weight: 700;
+  font-size: 68px;
+}
+
+.bidderContainers {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.highestBidBox {
+  font-family: "Monoton", cursive;
+  color: #700548;
+  font-size: 55px;
+}
+
+/*# sourceMappingURL=styles.css.map */
